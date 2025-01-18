@@ -4,3 +4,4 @@ pypdf
 sentence-transformers
 langchain-groq
 faiss-cpu
+pip install langchain_community
