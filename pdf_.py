@@ -12,7 +12,7 @@ from pypdf import PdfReader
 from langchain_groq import ChatGroq
 from langchain.schema import Document
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "your_key"
 # Initialize the ChatGroq model
 llm = ChatGroq(model="mixtral-8x7b-32768", temperature=0.6,max_tokens=500)
 
